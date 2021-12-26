@@ -16,9 +16,9 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: deemix
+            name: ak-outpost-proxy01
             port:
-              number: 6595
+              number: 9000
   tls:
   - hosts:
     - deemix.<path:apps-kv/data/general#internalDN>
